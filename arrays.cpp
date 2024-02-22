@@ -15,5 +15,10 @@ int main() {
     }
     cout << endl;
 
+    // performance updates
+    for (int i = 0; i < sizeof(cars)/sizeof(string); i++) {
+        cout << cars[i] << endl;
+    }
+
     return 0;
 }
